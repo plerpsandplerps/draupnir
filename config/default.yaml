@@ -104,7 +104,7 @@ automaticallyRedactForReasons:
 # Note: the management room is *excluded* from this condition.
 # Explicitly add it as a protected room to protect it.
 #
-# Note: Ban list rooms the bot is watching but didn't create will not be protected.
+# Note: Policy list rooms the bot is watching but didn't create will not be protected.
 # Explicitly add these rooms as a protected room list if you want them protected.
 protectAllJoinedRooms: false
 

@@ -21,7 +21,7 @@ import { DraupnirInterfaceAdaptor } from "../DraupnirCommandPrerequisites";
 
 export const SynapseAdminShutdownRoomCommand = describeCommand({
   summary:
-    "Prevents access to the the room on this server and sends a message to all users that they have violated the terms of service.",
+    "Prevents access to the room on this server and sends a message to all users that they have violated the terms of service.",
   parameters: tuple({
     name: "room",
     acceptor: MatrixRoomReferencePresentationSchema,
