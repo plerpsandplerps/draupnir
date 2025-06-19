@@ -18,7 +18,7 @@ import {
 import { Draupnir } from "../Draupnir";
 import { DraupnirInterfaceAdaptor } from "./DraupnirCommandPrerequisites";
 
-// ahh bitch, getting the prompts for capability provider name is going
+// ahh, getting the prompts for capability provider name is going
 // to require arguments to be passed through to the prompt function.
 
 type CapabilityProviderChange = {
