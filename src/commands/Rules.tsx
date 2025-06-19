@@ -175,7 +175,7 @@ DraupnirInterfaceAdaptor.describeRenderer(DraupnirRulesMatchingCommand, {
 
 export const DraupnirRulesMatchingMembersCommand = describeCommand({
   summary:
-    "Lists the rule that are matching matching members of protected rooms",
+    "Lists the rules that are matching matching members of protected rooms",
   parameters: tuple(),
   async executor(draupnir: Draupnir): Promise<Result<MemberPolicyMatches[]>> {
     const revision =
